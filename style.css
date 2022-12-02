@@ -62,7 +62,7 @@ nav{
 /* main content -container 1 css */
 
 .container1{
-    height: 800px;
+    height: 600px;
     width: 100%;
     border: 1px solid black;
     display: flex;
@@ -131,7 +131,7 @@ nav{
 
 .childcontainer2{
     /* border: 1px solid black; */
-    width: 70%;
+    width: 80%;
     height: 90%;
     /* display: grid; */
     display: flex;
@@ -147,7 +147,7 @@ nav{
     background-color: white;
     margin-top: 5px;
     border-radius: 10px;
-    overflow: auto;
+    overflow: hidden;
     margin: 10px;
 }
 
@@ -315,6 +315,7 @@ footer{
     color: white;
     border: 1px solid white;
     padding-left: 8px;
+    cursor: pointer;
 }
 
 .email button{
